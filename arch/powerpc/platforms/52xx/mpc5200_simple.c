@@ -62,6 +62,7 @@ static const char *board[] __initdata = {
 	"promess,motionpro",
 	"schindler,cm5200",
 	"tqc,tqm5200",
+	"midam,shark",
 	NULL
 };
 
