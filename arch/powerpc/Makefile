@@ -32,7 +32,7 @@ export CROSS32CC CROSS32AR
 ifeq ($(CROSS_COMPILE),)
 KBUILD_DEFCONFIG := $(shell uname -m)_defconfig
 else
-KBUILD_DEFCONFIG := ppc64_defconfig
+KBUILD_DEFCONFIG := ryu_defconfig
 endif
 
 ifeq ($(CONFIG_PPC64),y)
